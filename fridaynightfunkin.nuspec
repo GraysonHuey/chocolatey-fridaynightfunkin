@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>friday-night-funkin</id>
+    <id>fridaynightfunkin</id>
     <version>0.8.1</version>
 
     <title>Friday Night Funkin' (Install)</title>
@@ -10,7 +10,7 @@
     <owners>grayson.h08</owners>
 
     <projectUrl>https://github.com/FunkinCrew/Funkin</projectUrl>
-    <packageSourceUrl>https://github.com/GraysonHuey/chocolatey-friday-night-funkin</packageSourceUrl>
+    <packageSourceUrl>https://github.com/GraysonHuey/chocolatey-fridaynightfunkin</packageSourceUrl>
     <projectSourceUrl>https://github.com/FunkinCrew/Funkin</projectSourceUrl>
 
     <licenseUrl>https://github.com/FunkinCrew/Funkin/blob/main/LICENSE.md</licenseUrl>
@@ -36,3 +36,4 @@ This package does not bundle or redistribute game files. It downloads official r
     <file src="tools\**" target="tools" />
   </files>
 </package>
+
