@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>friday-night-funkin</id>
+    <version>0.8.1</version>
+
+    <title>Friday Night Funkin' (Install)</title>
+
+    <authors>FunkinCrew</authors>
+    <owners>grayson.h08</owners>
+
+    <projectUrl>https://github.com/FunkinCrew/Funkin</projectUrl>
+    <packageSourceUrl>https://github.com/GraysonHuey/chocolatey-friday-night-funkin</packageSourceUrl>
+    <projectSourceUrl>https://github.com/FunkinCrew/Funkin</projectSourceUrl>
+
+    <licenseUrl>https://github.com/FunkinCrew/Funkin/blob/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <tags>friday-night-funkin fnf funkin game rhythm</tags>
+
+    <summary>Installs Friday Night Funkin' v0.8.1 by downloading official GitHub release archives.</summary>
+
+    <description>
+This Chocolatey package installs Friday Night Funkin' v0.8.1 by downloading the official release archives from the FunkinCrew GitHub Releases page during installation.
+
+Supports:
+- Windows 64-bit
+- Linux 64-bit
+
+This package does not bundle or redistribute game files. It downloads official release artifacts at install time and verifies SHA256 checksums.
+    </description>
+
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
