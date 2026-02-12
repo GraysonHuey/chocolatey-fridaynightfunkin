@@ -16,7 +16,7 @@
     <licenseUrl>https://github.com/FunkinCrew/Funkin/blob/main/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
-    <tags>friday-night-funkin fnf funkin game rhythm</tags>
+    <tags>fridaynightfunkin fnf funkin game rhythm</tags>
 
     <summary>Installs Friday Night Funkin' v0.8.1 by downloading official GitHub release archives.</summary>
 
@@ -36,4 +36,3 @@ This package does not bundle or redistribute game files. It downloads official r
     <file src="tools\**" target="tools" />
   </files>
 </package>
-
